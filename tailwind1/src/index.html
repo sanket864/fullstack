@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+    <h1 class="font-bold text-4xl text-blue-500 bg-red-500 underline">This is heading</h1>
+    <p class="bg-blue-500">this is paragraph</p>
+    <p class="border border-red-500 m-4">this is second paragraph</p>
+    <div class="bg-[#123456] p-4 text-white">custom color</div>
+    <div class="bg-blue-100 pt-4 text-blue-500">this is another div</div>
+    <div class="text-4xl font-thin m-4 text-center">this is text inside div element</div>
+    <div class="w-full bg-pink-900 text-center text-white">div element with full width</div>
+    <div class="w-1/2 bg-brown-300 text-center">div element with half width</div>
+    <div class="w-100 h-100 bg-green-500 text-center">div element with some height and width</div>
+    <div class="flex justify-center items-center">
+    <div class="bg-green-500 p-5 flex-1 text-center">one</div>
+    <div class="bg-red-500 p-5 flex-1 text-center">two</div>
+    <div class="bg-pink-500 p-5 flex-1 text-center">three</div>
+    </div>
+    <nav class="flex justify-between px-4 py-3 bg-gray-900 text-white">
+        <h1 class="text-xl  bold-medium">My Website</h1>
+        <div class="flex gap-6">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+    <div class="bg-blue-500 md:bg-red-500 lg:bg-green-500">This is a responsive design</div>
+    <!-- grid -->
+     <div class="grid grid-cols-3 gap-4">
+        <div class="p-4 bg-blue-200">Grid Item 1</div>
+        <div class="p-4 bg-blue-200">Grid Item 2</div>
+        <div class="p-4 bg-blue-200">Grid Item 3</div>
+        
+        <div class="p-4 bg-blue-200">Grid Item 4</div>
+        <div class="p-4 bg-blue-200">Grid Item 5</div>
+        <div class="p-4 bg-blue-200">Grid Item 6</div>
+     </div>
+</body>
+</html>
